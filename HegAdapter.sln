@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D1311B28-360F-4F58-A80C-2A1D9E1C06CF}"
+	ProjectSection(SolutionItems) = preProject
+		BxAdapter.vsmdi = BxAdapter.vsmdi
+		Local.testsettings = Local.testsettings
+		Performance1.psess = Performance1.psess
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BxAdapter", "HegAdapter\BxAdapter.csproj", "{B2E047B8-6E85-4CCC-AA40-B0A946A30529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+		testt2|Any CPU = testt2|Any CPU
+		testt2|x86 = testt2|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Debug|x86.ActiveCfg = Debug|x86
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Debug|x86.Build.0 = Debug|x86
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Release|x86.ActiveCfg = Release|x86
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.Release|x86.Build.0 = Release|x86
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.testt2|Any CPU.ActiveCfg = testt2|Any CPU
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.testt2|Any CPU.Build.0 = testt2|Any CPU
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.testt2|x86.ActiveCfg = testt2|x86
+		{B2E047B8-6E85-4CCC-AA40-B0A946A30529}.testt2|x86.Build.0 = testt2|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AECF12BA-0615-4C1D-9466-9E6FE9334CF0}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BxAdapter.vsmdi
+	EndGlobalSection
+EndGlobal
